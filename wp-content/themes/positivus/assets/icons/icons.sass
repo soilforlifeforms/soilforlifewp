@@ -1,0 +1,21 @@
+// @import "../sass/_dynamic/functions"
+
+@import "../sass/config"
+@import "compass"
+@import "../sass/variable_aliases"
+
+// Load Default Functions/Mixins
+@import "../sass/_dynamic/*"
+
+@import "../sass/_extend/parts/icons/*"
+@import "../sass/_libs/retina-sprites"
+
+
+// import 1x sprites
+$sprites: sprite-map("icon/*.png")
+
+// import 2x sprites
+$sprites2x: sprite-map("icon2x/*.png")
+
++generate_sprite_classes(icon, $sprites, $sprites2x)
+	@extend %icon__inner

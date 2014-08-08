@@ -1,0 +1,131 @@
+/* ----------------------------------- */
+/* 		Shortcut for Extends */
+/* ----------------------------------- */
+/* line 3, ../../assets/sass/admin/_custom.sass */
+#blocks-to-edit .block.block-container {
+  background-color: whitesmoke;
+  border-style: solid;
+  border-radius: 1px; }
+/* line 9, ../../assets/sass/admin/_custom.sass */
+#blocks-to-edit .tiny-preview {
+  width: auto;
+  max-height: 40px;
+  cursor: pointer; }
+/* line 18, ../../assets/sass/admin/_custom.sass */
+#blocks-to-edit .reference-image img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto; }
+/* line 24, ../../assets/sass/admin/_custom.sass */
+#blocks-to-edit .block-options {
+  overflow: hidden;
+  *zoom: 1;
+  border: 1px solid #e3e3e3;
+  background-color: #f0f0f0;
+  position: relative;
+  padding: 12.5px;
+  margin: 0;
+  min-height: 30px; }
+  /* line 34, ../../assets/sass/admin/_custom.sass */
+  #blocks-to-edit .block-options.collapsed {
+    opacity: 0.2;
+    -moz-transition: opacity 200ms ease-in;
+    -o-transition: opacity 200ms ease-in;
+    -webkit-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in; }
+    /* line 37, ../../assets/sass/admin/_custom.sass */
+    #blocks-to-edit .block-options.collapsed:hover {
+      opacity: 1; }
+  /* line 41, ../../assets/sass/admin/_custom.sass */
+  #blocks-to-edit .block-options .column {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 45%;
+    padding-left: 5%;
+    float: left;
+    padding-left: 25px; }
+    /* line 48, ../../assets/sass/admin/_custom.sass */
+    #blocks-to-edit .block-options .column.right {
+      border-left: 1px solid #e3e3e3; }
+/* line 51, ../../assets/sass/admin/_custom.sass */
+#blocks-to-edit .controls {
+  position: absolute;
+  top: 6.25px;
+  right: 6.25px;
+  width: 100px; }
+  /* line 57, ../../assets/sass/admin/_custom.sass */
+  #blocks-to-edit .controls a {
+    float: right;
+    margin-right: 6.25px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #fcfcfc;
+    background-color: #0d0d0d;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    -moz-transition: background-color 200ms ease-in-out;
+    -o-transition: background-color 200ms ease-in-out;
+    -webkit-transition: background-color 200ms ease-in-out;
+    transition: background-color 200ms ease-in-out;
+    -moz-transition: opacity 200ms ease-in-out;
+    -o-transition: opacity 200ms ease-in-out;
+    -webkit-transition: opacity 200ms ease-in-out;
+    transition: opacity 200ms ease-in-out; }
+    /* line 71, ../../assets/sass/admin/_custom.sass */
+    #blocks-to-edit .controls a:hover {
+      text-decoration: none; }
+  /* line 75, ../../assets/sass/admin/_custom.sass */
+  #blocks-to-edit .controls .options {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    text-transform: capitalize;
+    background-image: url('../../assets/images/admin/settings.png?1373016030');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    color: #fcfcfc;
+    background-color: #009bdd;
+    opacity: 0.5; }
+    /* line 80, ../../assets/sass/admin/_custom.sass */
+    #blocks-to-edit .controls .options:hover {
+      opacity: 1;
+      background-color: #0089c4; }
+  /* line 85, ../../assets/sass/admin/_custom.sass */
+  #blocks-to-edit .controls .delete {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    text-transform: capitalize;
+    background-image: url('../../assets/images/admin/trash.png?1373016046');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: #de0405;
+    opacity: 0.5; }
+    /* line 91, ../../assets/sass/admin/_custom.sass */
+    #blocks-to-edit .controls .delete:hover {
+      opacity: 1;
+      text-decoration: none; }
+
+/* Columns */
+/* line 2, ../../assets/sass/admin/_default.scss */
+#blocks-to-edit .block-pure_block_container {
+  padding: 4px;
+  background: #FCFCFC;
+  margin: 8px -5px -5px 15px;
+  border: 1px dotted #E3E3E3;
+  max-width: 734px; }
+
+/* line 9, ../../assets/sass/admin/_default.scss */
+#blocks-to-edit .block-pure_block_container ul.blocks {
+  min-height: 50px;
+  padding: 0;
+  margin: 0 0 0 -20px;
+  width: 110%; }
+
+/*#blocks-to-edit .empty-column { 
+	margin: 0;
+	padding: 8px 10px 0;
+	color: #888;
+}*/

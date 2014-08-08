@@ -1,0 +1,33 @@
+/* line 7, ../assets/sass/ie.sass */
+img {
+  height: auto;
+  width: auto; }
+
+/* line 19, ../assets/sass/ie.sass */
+#loading-spinner {
+  display: none;
+  width: 100px;
+  height: 100px;
+  background-image: url('../assets/images/ie-spinner.gif?1371648685');
+  background-repeat: no-repeat;
+  background-position: center; }
+
+/* line 40, ../assets/sass/ie.sass */
+#packery-column {
+  width: 7%;
+  padding: 0; }
+
+/* line 44, ../assets/sass/ie.sass */
+#packery-gutter {
+  width: 1%;
+  padding: 0; }
+
+/* line 50, ../assets/sass/ie.sass */
+.masonry .boxed-item.w1 {
+  width: 24%; }
+/* line 52, ../assets/sass/ie.sass */
+.masonry .boxed-item.w2 {
+  width: 32%; }
+/* line 54, ../assets/sass/ie.sass */
+.masonry .boxed-item.w3 {
+  width: 47%; }

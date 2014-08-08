@@ -1,0 +1,93 @@
+ == Positivus-1.3.4
+    - Fixed: Menu obstructs content in header when in responsive mode
+    - Fixed: Modern Masonry archive template
+    - Fixed: Infinite Scroll
+ == Positivus-1.3.3
+    - Updated: Visual Composer to Version 3.7.1
+ == Positivus-1.3.2
+    - Updated: Completely Revamped Portfolio Filters
+    - Added: URL for Clicked Blog & Portfolio Entries ( HTML5 pushState )
+ == Positivus-1.3.1
+    - Added: Option to Offset Parallax
+    - Updated: Updated Parallax Performance
+    - Fixed: Responsive List Blog
+    - Updated: Better Handling of Logo Image
+    - Fixed: Responsive Header Toggled properly
+    - Fixed: Responsive Line Height for the header
+ == Positivus-1.3.0
+    - Fixed: Sub-header in IE8
+    - Fixed: IE8 Masonry
+    - Updated: IE8 Bugfixes
+    - Fixed: Navigation in IE8
+    - Added: Header message asking to setup a menu if a menu doesn't exist.
+    - Fixed: Menu line height for non-image headers
+    - Updated: Color Changer
+    - Added: Option to change the portfolio "filter by" taxonomy
+    - Added: Auto Import options from the Theme Customizer
+    - Updated: A Completely new Admin Panel!
+    - Added: Options Panel Framework
+    - Updated: Completely Brand New Responsive Menu!
+    - Updated: Improved the Masonry Portfolio
+ == Positivus-1.2.6
+    - Fixed: Menu Indicator behaves correctly after a window resize.
+    - Fixed: Responsive Media Columns now have auto height
+    - Updated: Positivus now tries to load style.css in the child theme directory if one exists in addition to enqueueing base styles.
+ == Positivus-1.2.5
+    - Fixed: IE 10 "Media with Text" bugs
+    - Fixed: Media with Text block alignment issues related to wordpress <p> tags
+ == Positivus-1.2.4
+    - Fixed: Masonry layout for Archives
+ == Positivus-1.2.3
+    - Updated: Proper spacing for the responsive navigation toggle button.
+    - Fixed: Blinking menu button on iPhone
+    - Fixed: A bunch of critical iOS bugs
+    - Fixed: Various Mobile Issues
+    - Updated: Responsive Close Button for AJAX Posts and Portfolio Items
+    - Fixed: Disappearing Footer
+ == Positivus-1.2.2
+    - Fixed: Legacy Parallax Support for Aqua Page Builder
+    - Fixed: Firefox Media with Text block
+    - Fixed: White color in [pure_marker] shortcode
+    - Updated: Pure Portfolio to version 1.1.2
+    - Updated: Fixed Portfolio with Images and Video
+ == Positivus-1.2.1
+    - Fixed: Gallery (Slider) in Header
+    - Fixed: Offset in Parallax
+ == Positivus-1.2.0
+    - Added: A Visual Composer from WPBakery as the Page Builder instead of Aqua Page Builder
+    - Added: Page Template - Page: Composer for Visual Composer when unnecessary <p> tags ruin the design.
+    - Updated: Better Menu Responsiveness ( Now always responsive when < 768px wide screen )
+    - Fixed: Responsive Alignment
+    - Added: Footer no-js fallback
+    - Fixed: Skills and Project types archive now displays the title
+    - Fixed: Modern Masonry hover now works after loading with AJAX
+    - Fixed: Media Column Height sometimes was calculated wrong
+ == Positivus-1.1.3
+    - Fixed: Add Proper i18n support ( added .po/.mo files in languages directory )
+ == Positivus-1.1.2
+    - Fixed: Masonry Portfolio Hovers are now working again
+    - Fixed: Header image wasn't showing up sometimes because of unwanted values.
+    - Fixed: The "Featured Image" thumbnail is never going to show up when using Video in Portfolio. You can still add a gallery via the meta options.
+    - Fixed: Portfolio now shows close button again
+ == Positivus-1.1.1
+    - Fixed: FireFox JavaScript Issues
+    - Fixed: No Header-Sub for 404 Pages and Single Post and Portfolio Entries
+ == Positivus-1.1.0
+    - Fixed: Portfolio Posts are correctly resized when opened in a new tab
+    - Updated: Completely Revamped Portfolio Plugin ( All data is going to be auto-migrated on the new plugin activation )
+    - Added: Video Support for Portfolio
+ == Positivus-1.0.4
+    - Fixed: Sub-Header Background Image and Opacity
+ == Positivus-1.0.3
+    - Fixed: Proper Responsive Header
+    - Fixed: Custom Sub-Header Background color option
+    - Updated: Better Alignment for Titles in Blog and Portfolio Posts
+    - Fixed: Footer Height Calculation Problems
+ == Positivus-1.0.2
+    - Fixed: Footer Height Calculation Problems
+    - Fixed: AJAX Item Close button
+ == Positivus-1.0.1
+    - Added: Option to remove padding from Page Builder Containers
+    - Fix Masonry Box link color
+== Positivus 1.0.0
+    - Initial Release

@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Parallax Backgrounds for VC\n"
+"POT-Creation-Date: 2014-06-25 01:57+0800\n"
+"PO-Revision-Date: 2014-06-25 01:57+0800\n"
+"Last-Translator: Benjamin Intal <bfintal@gmail.com>\n"
+"Language-Team: Gambit <bf.intal@gambit.ph>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../vc-row-parallax.php:221
+msgid "Background Type"
+msgstr ""
+
+#: ../vc-row-parallax.php:228 ../vc-row-parallax.php:243
+#: ../vc-row-parallax.php:258 ../vc-row-parallax.php:273
+#: ../vc-row-parallax.php:288 ../vc-row-parallax.php:303
+#: ../vc-row-parallax.php:318 ../vc-row-parallax.php:333
+#: ../vc-row-parallax.php:354 ../vc-row-parallax.php:369
+#: ../vc-row-parallax.php:383 ../vc-row-parallax.php:407
+#: ../vc-row-parallax.php:430
+msgid "Image Parallax / Video"
+msgstr ""
+
+#: ../vc-row-parallax.php:235
+msgid "YouTube Video ID"
+msgstr ""
+
+#: ../vc-row-parallax.php:238
+msgid ""
+"Enter the video ID of the YouTube video you want to use as your background. "
+"You can see the video ID from your video's URL: https://www.youtube.com/"
+"watch?v=XXXXXXXXX (The X's is the video ID). <em>Ads will show up in the "
+"video if it has them.</em> No video will be shown if left blank. "
+"<strong>Tip: newly uploaded videos may not display right away and might show "
+"an error message</strong>"
+msgstr ""
+
+#: ../vc-row-parallax.php:250
+msgid "Vimeo Video ID"
+msgstr ""
+
+#: ../vc-row-parallax.php:253
+msgid ""
+"Enter the video ID of the Vimeo video you want to use as your background. "
+"You can see the video ID from your video's URL: https://vimeo.com/XXXXXXX "
+"(The X's is the video ID). No video will be shown if left blank. "
+"<strong>Tip: Vimeo sometimes has problems with Firefox</strong>"
+msgstr ""
+
+#: ../vc-row-parallax.php:265 ../vc-row-parallax.php:280
+msgid "Mute YouTube Video"
+msgstr ""
+
+#: ../vc-row-parallax.php:267 ../vc-row-parallax.php:282
+msgid "Check this to mute your video"
+msgstr ""
+
+#: ../vc-row-parallax.php:295
+msgid "YouTube Loop Triggering Refinement"
+msgstr ""
+
+#: ../vc-row-parallax.php:298
+msgid ""
+"<strong>Use this if you see a noticeable dark video frame before the video "
+"loops.</strong> Because YouTube performs it's video looping with a huge "
+"noticeable delay, we try our best to guess when the video exactly ends and "
+"trigger a loop when we <em>just</em> reach the end. If there's a dark frame, "
+"put in a time here in milliseconds that we can use to push back the looping "
+"trigger. Try values from 5-100 milliseconds."
+msgstr ""
+
+#: ../vc-row-parallax.php:310
+msgid "Vertical Black Bars Fix (Video Height Correction)"
+msgstr ""
+
+#: ../vc-row-parallax.php:313
+msgid ""
+"<strong>Use this if your video is showing black bars on its sides</strong>. "
+"To get rid of the black bars, we need to make your video a bit "
+"<strong>taller</strong>. The value you put here will be added to the height "
+"of the video. Your video will be clipped a little on the sides because of "
+"this. This is a percentage value, try using a value of 0.1 to 100.0"
+msgstr ""
+
+#: ../vc-row-parallax.php:325
+msgid "Horizontal Black Bars Fix (Video Width Correction)"
+msgstr ""
+
+#: ../vc-row-parallax.php:328
+msgid ""
+"<strong>Use this if your video is showing black bars on the top and bottom</"
+"strong>. To get rid of the black bars, we need to make your video a bit "
+"<strong>wider</strong>. The value you put here will be added to the width of "
+"the video. Your video will be clipped a little on the top and bottom. "
+"because of this. This is a percentage value, try using a value of 0.1 to "
+"100.0"
+msgstr ""
+
+#: ../vc-row-parallax.php:340
+msgid "Background Image Parallax"
+msgstr ""
+
+#: ../vc-row-parallax.php:349
+msgid ""
+"<strong><em>To select a background image, head over to the <strong>Design "
+"Options</strong> tab and upload an image there.</em></strong><br><br>Select "
+"the parallax effect for your background image in this field. Be mindful of "
+"the <strong>background size</strong> and the <strong>dimensions</strong> of "
+"your background image when setting this value. For example, if you're "
+"performing a vertical parallax (up or down), make sure that your background "
+"image has a large height that can provide sufficient scrolling space for the "
+"parallax effect."
+msgstr ""
+
+#: ../vc-row-parallax.php:361
+msgid "Parallax Speed"
+msgstr ""
+
+#: ../vc-row-parallax.php:364
+msgid ""
+"The movement speed, value should be between 0.1 and 1.0. A lower number "
+"means slower scrolling speed. Be mindful of the <strong>background size</"
+"strong> and the <strong>dimensions</strong> of your background image when "
+"setting this value. Faster scrolling means that the image will move faster, "
+"make sure that your background image has enough width or height for the "
+"offset."
+msgstr ""
+
+#: ../vc-row-parallax.php:377
+msgid "Check this to enable the parallax effect in mobile devices"
+msgstr ""
+
+#: ../vc-row-parallax.php:378
+msgid ""
+"Parallax effects would most probably cause slowdowns when your site is "
+"viewed in mobile devices. If the device width is less than 980 pixels, then "
+"it is assumed that the site is being viewed in a mobile device."
+msgstr ""
+
+#: ../vc-row-parallax.php:390
+msgid "Breakout Parallax & Video Background"
+msgstr ""
+
+#: ../vc-row-parallax.php:394 ../vc-row-parallax.php:395
+#: ../vc-row-parallax.php:396 ../vc-row-parallax.php:397
+#: ../vc-row-parallax.php:398 ../vc-row-parallax.php:399
+#: ../vc-row-parallax.php:400 ../vc-row-parallax.php:401
+#: ../vc-row-parallax.php:402 ../vc-row-parallax.php:403
+msgid "Break out of 1 container"
+msgstr ""
+
+#: ../vc-row-parallax.php:404
+msgid "Break out of all containers (full page width)"
+msgstr ""
+
+#: ../vc-row-parallax.php:406
+msgid ""
+"The parallax or video effect is contained inside a Visual Composer row, "
+"depending on your theme, this container may be too small for your parallax "
+"effect. Adjust this option to let the parallax effect stretch outside it's "
+"current container and occupy the parent container's width."
+msgstr ""
+
+#: ../vc-row-parallax.php:414
+msgid "Breakout Parallax & Video Row Span"
+msgstr ""
+
+#: ../vc-row-parallax.php:418 ../vc-row-parallax.php:419
+#: ../vc-row-parallax.php:420 ../vc-row-parallax.php:421
+#: ../vc-row-parallax.php:422 ../vc-row-parallax.php:423
+#: ../vc-row-parallax.php:424 ../vc-row-parallax.php:425
+#: ../vc-row-parallax.php:426 ../vc-row-parallax.php:427
+msgid "Occupy also the next row"
+msgstr ""
+
+#: ../vc-row-parallax.php:429
+msgid ""
+"The parallax or video effect is normall only applied for this Visual "
+"Composer row. You can choose here if you want this parallax background to "
+"also span across the next Visual Composer row. Remember to clear the "
+"background of the next row so as not to cover up the parallax."
+msgstr ""
